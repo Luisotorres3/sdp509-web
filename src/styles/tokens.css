@@ -1,0 +1,19 @@
+:root {
+  --cream: #f6f2e8;
+  --pineapple: #eaf38b;
+  --leaf: #204e37;
+  --electric: #193fc4;
+  --coral: #d95d42;
+  --ink: #223b2e;
+  --muted: #536052;
+  --line: #ccd0bd;
+  --display: "Fredoka Variable", sans-serif;
+  --body: "DM Sans Variable", sans-serif;
+  --gutter: clamp(20px, 5vw, 100px);
+  font-family: var(--body);
+  color: var(--ink);
+  background: var(--cream);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
