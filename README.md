@@ -2,6 +2,8 @@
 
 Web musical en català de SDP509 — Suc de Pinya. React, TypeScript estricte i Vite; una sola home amb anchors. Disseny «La pinya digital / Del camp a l'estudi», música amb reproductors oficials i figures col·leccionables.
 
+[Web publicada](https://luisotorres3.github.io/sdp509-web/) · [Repositori](https://github.com/Luisotorres3/sdp509-web) · [GitHub Actions](https://github.com/Luisotorres3/sdp509-web/actions). QA local i de producció completat; resultats i límits a `docs/qa.md`. Les figures individuals i bios continuen pendents de validació editorial amb el grup.
+
 ## Requisits i execució
 
 Node 20.19+ o 22.12+ (recomanat Node 22 LTS), npm i Git. Versions exactes al lockfile. Vite 8, React 19, TypeScript 5.9 compatible amb el parser ESLint instal·lat. No backend, CMS ni base de dades.

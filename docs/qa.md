@@ -24,4 +24,9 @@ La web envia referrerPolicy=strict-origin-when-cross-origin i demana interfície
 
 ## Producció
 
-S'actualitzarà després del primer desplegament i de provar la URL real. L'estat de workflow i el QA de producció es registren per separat de la compilació local.
+- URL oberta i verificada: https://luisotorres3.github.io/sdp509-web/
+- Primer commit de l'aplicació: `0a66dfd`. [Workflow 34653657419](https://github.com/Luisotorres3/sdp509-web/actions/runs/34653657419): build i deploy correctes.
+- QA complet repetit a la URL real: els set amples sense overflow ni imatges trencades; zero errors JavaScript, zero assets HTTP >=400, zero incidències axe en desktop, mòbil i diàleg.
+- Spotify mostra SDP509; YouTube carrega correctament «32 d'agost - SDP509 [videoclip oficial]» i la playlist amb «Tornar a Començar (Mode Avió)». El bloqueig local no s'ha reproduït a Pages. No s'ha fet una escolta íntegra dels temes ni una auditoria d'accessibilitat del codi intern dels proveïdors.
+- Comprovats canonical, MusicGroup JSON-LD, títol, onze anchors interns, favicon i imatge OG amb HTTP 200, menú i capçalera sticky. Les majúscules del nom d'usuari al hostname del canonical són equivalents al domini en minúscules segons la normalització d'URL.
+- Captures de cada secció, hero desktop/tablet/mòbil i JSON de comprovació a `qa-artifacts/production-*`. Revisió visual explícita del llançament, hero i figures en mòbil. Script addicional reproduïble: `node scripts/check-production.mjs`.
